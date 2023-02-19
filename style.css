@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;700&display=swap");
+
+body {
+  background-color: #051622;
+  font-family: "Inter", sans-serif;
+}
+
+h1 {
+  font-size: 30;
+  color: #deb992;
+  text-align: center;
+}
+
+canvas {
+  border: 1px solid #deb992;
+}
+
+p {
+  font-size: 8;
+  color: #deb992;
+  text-align: center;
+  font-weight: 100;
+  margin-top: -20px;
+}
+/* div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.text {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  align-items: left;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.newContainer {
+  display: flex;
+  justify-content: center;
+}
+
+/* test */
+
+#square {
+  width: 28px;
+  height: 28px;
+  background-color: red;
+  cursor: pointer;
+  border: 1px solid #deb992;
+  margin-left: 10px;
+}
+
+h3 {
+  font-size: 20;
+  color: #deb992;
+}
+
+.colorHolder {
+  display: flex;
+  align-items: center;
+}
+
+.numHolder {
+  display: flex;
+  align-items: center;
+}
+
+
+#transparencyInput {
+  width: 50px;
+  margin-left: 10px;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  border: 1px solid #deb992;
+  color:#deb992;
+}
+
+#transparencyInput:focus {
+    outline: none;
+}

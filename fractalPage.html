@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Fractal Viewer</h1>
+    <p>Creates a mandelbrot set fractal</p>
+
+    <div class="newContainer">
+      <div class="container">
+        <div>
+          <canvas id="myCanvas" width="1000" height="1000">
+            An alternative text describing what your canvas displays.
+          </canvas>
+        </div>
+        <div class="text">
+          <div class="numHolder">
+            <h3>Number of Iterations:</h3>
+            <input type="number" id="transparencyInput" min="5" max="500" step="1" value="100">
+          </div>
+          
+          <div class="colorHolder">
+            <h3>Color:</h3>
+            <div id="square"></div>
+          </div>
+        </div>
+        <button id="generateBtn">Generate</button>
+
+        <!-- test -->
+        
+      </div>
+    </div>
+  </body>
+  <script src="fractal.js"></script>
+</html>
